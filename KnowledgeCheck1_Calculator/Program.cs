@@ -39,7 +39,8 @@ namespace KnowledgeCheck1_Calculator
                     var subtractNumber1 = Console.ReadLine();
                     var subtractNumber2 = Console.ReadLine();
 
-                    if (int.TryParse(subtractNumber1, out int subNumOne) && int.TryParse(subtractNumber2, out int subNumTwo))
+                    if (int.TryParse(subtractNumber1, out int subNumOne) && 
+                        int.TryParse(subtractNumber2, out int subNumTwo))
                     {
                         Console.Write($"{subtractNumber1} - {subtractNumber2} = ");
                         Console.Write(calculator.Subtract(subNumOne, subNumTwo));
@@ -51,22 +52,48 @@ namespace KnowledgeCheck1_Calculator
                     break;
 
                 case "3":
-                    // Add code here
+                    Console.WriteLine("Enter 2 integers to multiply: ");
+                    var multiplyNumber1 = Console.ReadLine();
+                    var multiplyNumber2 = Console.ReadLine();
+
+                    if (int.TryParse(multiplyNumber1, out int multNumOne) &&
+                        int.TryParse(multiplyNumber2, out int multNumTwo))
+                    {
+                        Console.Write($"{multiplyNumber1} * {multiplyNumber2} = ");
+                        Console.WriteLine($"{calculator.Multiply(multNumOne, multNumTwo)}");
+                    }    
                     break;
 
                 case "4":
-                    Console.WriteLine("Enter 2 integers to divide");
+                    Console.WriteLine("Enter 2 doubles to divide");
                     var divideNumber1 = Console.ReadLine();
                     var divideNumber2 = Console.ReadLine();
 
-                    if (double.TryParse(divideNumber1, out double divNumOne) && double.TryParse(divideNumber2, out double divNumTwo))
+                    if (double.Parse(divideNumber2) == 0 || string.IsNullOrEmpty(divideNumber1) || 
+                        string.IsNullOrEmpty(divideNumber2))
                     {
-                        Console.Write($"{divideNumber1} / {divideNumber2} = ");
-                        Console.Write(calculator.Divide(divNumOne, divNumTwo));
+                        while (true)
+                        {
+                            Console.WriteLine("Cannot divide by 0 or empty input. Enter 2 doubles to divide");
+                            divideNumber1 = Console.ReadLine();
+                            divideNumber2 = Console.ReadLine();
+
+                            if (double.Parse(divideNumber2) == 0 || string.IsNullOrEmpty(divideNumber1) || 
+                                string.IsNullOrEmpty(divideNumber2))
+                            {
+                                continue;
+                            }
+                            else
+                            {
+                                break;
+                            }    
+                        }
                     }
-                    else
+                    if (double.TryParse(divideNumber1, out double divNumOne) && 
+                                double.TryParse(divideNumber2, out double divNumTwo))
                     {
-                        Console.WriteLine("One or more of the numbers is not an int");
+                            Console.Write($"{divideNumber1} / {divideNumber2} = ");
+                            Console.Write(calculator.Divide(divNumOne, divNumTwo));
                     }
                     break;
 
