@@ -1,0 +1,15 @@
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net8.0\KnowledgeCheck1_Calculator.exe
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net8.0\KnowledgeCheck1_Calculator.deps.json
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net8.0\KnowledgeCheck1_Calculator.runtimeconfig.json
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net8.0\KnowledgeCheck1_Calculator.dll
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\bin\Debug\net8.0\KnowledgeCheck1_Calculator.pdb
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net8.0\KnowledgeCheck1_Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net8.0\KnowledgeCheck1_Calculator.AssemblyInfoInputs.cache
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net8.0\KnowledgeCheck1_Calculator.AssemblyInfo.cs
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net8.0\KnowledgeCheck1_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net8.0\KnowledgeCheck1_Calculator.sourcelink.json
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net8.0\KnowledgeCheck1_Calculator.dll
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net8.0\refint\KnowledgeCheck1_Calculator.dll
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net8.0\KnowledgeCheck1_Calculator.pdb
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net8.0\KnowledgeCheck1_Calculator.genruntimeconfig.cache
+C:\Users\brett\Documents\code_you\Software1-Knowledge-Check-1\KnowledgeCheck1_Calculator\obj\Debug\net8.0\ref\KnowledgeCheck1_Calculator.dll
