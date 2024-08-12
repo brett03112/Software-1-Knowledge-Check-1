@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KnowledgeCheck1_Calculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+919dcb7a90e7f524bc98d75e3b0b3259f0effef1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4081b556eff8653ea9e814df719baa35af7ce2c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("KnowledgeCheck1_Calculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KnowledgeCheck1_Calculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
